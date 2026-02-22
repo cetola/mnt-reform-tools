@@ -40,9 +40,9 @@ source=(
   'motd-rescue'
 )
 sha256sums=(
-  'SKIP'
+  '811ac860953692a96dede9a5f163baba398fe01e89aeef0de10b418e2aeafa9e'
   'e11f4e0d24edbb52f6bd1fa6599bd81a41c7cca7143eb52e66a48f9423e1e1a2'
-  'f7986b5dce945a9dcc923bbc66db11f6f5cba1e78576873b644fadff4dc5ad8d'
+  'fba668d174ec937c97ad8281202c4bc1d1e3d388dc950ad7b062ab3b19888334'
 )
 
 build() {
