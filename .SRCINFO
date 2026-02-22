@@ -1,0 +1,36 @@
+pkgbase = reform-tools
+	pkgdesc = MNT Reform system tools & helpers
+	pkgver = 1.85
+	pkgrel = 1
+	url = https://source.mnt.re/reform/reform-tools
+	install = reform-tools.install
+	arch = x86_64
+	arch = aarch64
+	license = GPL3
+	makedepends = git
+	makedepends = help2man
+	makedepends = imagemagick
+	makedepends = pkgconf
+	makedepends = plymouth
+	depends = python
+	depends = python-psutil
+	depends = i2c-tools
+	depends = cryptsetup
+	depends = lvm2
+	depends = parted
+	depends = jq
+	depends = rsync
+	depends = e2fsprogs
+	optdepends = mtd-utils: for NAND flashing tools
+	optdepends = alsa-utils: for audio-related tools
+	optdepends = lm_sensors: for sensor monitoring
+	optdepends = ircii: for Reform chat/IRC tools
+	optdepends = pavucontrol: GUI mixer control (if using PulseAudio)
+	source = git+https://source.mnt.re/reform/reform-tools.git#tag=1d96f15cc3396442530a92c472bfe6d367045d76
+	source = motd-full
+	source = motd-rescue
+	sha256sums = SKIP
+	sha256sums = e11f4e0d24edbb52f6bd1fa6599bd81a41c7cca7143eb52e66a48f9423e1e1a2
+	sha256sums = fba668d174ec937c97ad8281202c4bc1d1e3d388dc950ad7b062ab3b19888334
+
+pkgname = reform-tools
